@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <title>My kaktus</title>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <a href="#" class="btn btn-primary btn-lg animate__animated animate__zoomIn">Get Started</a>
+            <h1 class="animate__animated animate__fadeInDown">SELAMAT DATANG DI TAUROO PORTOFOLIO</h1>
+            <p class="lead animate__animated animate__fadeInUp">inilah gambar gambar kaktus yang ada ditoko kami, yaitu di toko kaktus tauroo.</p>
+            
+        </div>
+    </section>
+    <div class="container mt-5">
+        <h1 class="text-center">Tauroo kaktus</h1>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="assets/img/n.jpg" class="card-img-top" alt="gambar 1">
+                    <div class="card-body">
+                        <h5 class="card-title">kaktus 1</h5>
+                        <p class="card-text">Crassula ovata, senecio rowleyanus/string of pearl, opuntia monacantha.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="assets/img/p.jpg" class="card-img-top" alt="gambar 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Kaktus 2</h5>
+                        <p class="card-text">Tradescantia sillamontana.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="assets/img/l.jpg" class="card-img-top" alt="gambar 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Kaktus 3</h5>
+                        <p class="card-text">Orbea dummeri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Tauroo official.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" onclick="scrollToSection('home')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="scrollToSection('features')">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="scrollToSection('contact')">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="features" class="features text-center">
+        <div class="container">
+            <h2 class="mb-5">Fitur Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon mb-3"><i class="fas fa-cogs"></i></div>
+                    <h4>Fitur 1</h4>
+                    <p>kami akan memberi Anda pengalaman terbaik.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon mb-3"><i class="fas fa-users"></i></div>
+                    <h4>Fitur 2</h4>
+                    <p>kami menerima kolaborasi dengan sangat baik.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon mb-3"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Fitur 3</h4>
+                    <p>privasi anda akan selalu terjaga dengan baik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="text-center">
+        <div class="container">
+            <h2>Kontak kami</h2>
+            <p class="lead">Bila ingin memesan, panggil nomor telfon yang tertera dibawah ini.</p>
+            <p>Email: Fexxy11@yahoo.com</p>
+            <p>Phone: (+62) 8585-591-825</p>
+        </div>
+    </section>
+
+    <div class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 TaurooBrand. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+
+    
